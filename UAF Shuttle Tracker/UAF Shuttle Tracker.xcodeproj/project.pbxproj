@@ -36,19 +36,20 @@
 
 /* Begin PBXFileReference section */
 		5C9B2E7A23B05E950086FF96 /* UAF Shuttle Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UAF Shuttle Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5C9B2E7D23B05E950086FF96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5C9B2E7F23B05E950086FF96 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5C9B2E8123B05E950086FF96 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5C9B2E7D23B05E950086FF96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; usesTabs = 1; };
+		5C9B2E7F23B05E950086FF96 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; usesTabs = 1; };
+		5C9B2E8123B05E950086FF96 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; usesTabs = 1; };
 		5C9B2E8323B05E980086FF96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C9B2E8623B05E980086FF96 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5C9B2E8923B05E980086FF96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5C9B2E8B23B05E980086FF96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5C9B2E9023B05E990086FF96 /* UAF Shuttle TrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UAF Shuttle TrackerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5C9B2E9423B05E990086FF96 /* UAF_Shuttle_TrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UAF_Shuttle_TrackerTests.swift; sourceTree = "<group>"; };
+		5C9B2E9423B05E990086FF96 /* UAF_Shuttle_TrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UAF_Shuttle_TrackerTests.swift; sourceTree = "<group>"; usesTabs = 1; };
 		5C9B2E9623B05E990086FF96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5C9B2E9B23B05E990086FF96 /* UAF Shuttle TrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UAF Shuttle TrackerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5C9B2E9F23B05E990086FF96 /* UAF_Shuttle_TrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UAF_Shuttle_TrackerUITests.swift; sourceTree = "<group>"; };
+		5C9B2E9F23B05E990086FF96 /* UAF_Shuttle_TrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UAF_Shuttle_TrackerUITests.swift; sourceTree = "<group>"; usesTabs = 1; };
 		5C9B2EA123B05E990086FF96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C9B2EAD23B065910086FF96 /* Map.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Map.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +86,7 @@
 				5C9B2E7B23B05E950086FF96 /* Products */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 1;
 		};
 		5C9B2E7B23B05E950086FF96 /* Products */ = {
 			isa = PBXGroup;
@@ -95,6 +97,7 @@
 			);
 			name = Products;
 			sourceTree = "<group>";
+			usesTabs = 1;
 		};
 		5C9B2E7C23B05E950086FF96 /* UAF Shuttle Tracker */ = {
 			isa = PBXGroup;
@@ -106,6 +109,7 @@
 				5C9B2E8823B05E980086FF96 /* LaunchScreen.storyboard */,
 				5C9B2E8B23B05E980086FF96 /* Info.plist */,
 				5C9B2E8523B05E980086FF96 /* Preview Content */,
+				5C9B2EAD23B065910086FF96 /* Map.playground */,
 			);
 			path = "UAF Shuttle Tracker";
 			sourceTree = "<group>";
@@ -439,6 +443,7 @@
 				DEVELOPMENT_TEAM = 92GPFLWS8D;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "UAF Shuttle Tracker/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -446,7 +451,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.uaf.UAF-Shuttle-Tracker";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -459,6 +464,7 @@
 				DEVELOPMENT_TEAM = 92GPFLWS8D;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "UAF Shuttle Tracker/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -466,7 +472,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.uaf.UAF-Shuttle-Tracker";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
