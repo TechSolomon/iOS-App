@@ -3,7 +3,7 @@
 //  UAF Shuttle TrackerTests
 //
 //  Created by Spud on 12/22/19.
-//  Copyright © 2019 UAF-Shuttles. All rights reserved.
+//  Copyright © 2020 UAF-Shuttles. All rights reserved.
 //
 
 import XCTest
